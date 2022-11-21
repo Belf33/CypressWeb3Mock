@@ -1,0 +1,29 @@
+{
+  "name": "cypressweb3mock",
+  "version": "1.0.0",
+  "description": "polygon web3 mock automation project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open --e2e --browser chrome",
+    "testrun": "cypress run --e2e --browser chrome"
+  },
+  "keywords": [
+    "cypress",
+    "javascript",
+    "testing"
+  ],
+  "author": "Dmitrii Belii",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3",
+    "@depay/web3-mock": "^13.22.11",
+    "cypress": "^11.1.0",
+    "eslint": "^7.23.0",
+    "cypress-xpath": "^2.0.1"
+  },
+  "dependencies": {
+    "@depay/web3-wallets": "^12.2.0",
+    "sinon-chai": "^3.7.0",
+    "mock-web3-provider": "^1.0.0"
+  }
+}
